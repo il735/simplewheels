@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(7, 185, 141);
+}
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+strong{
+  color: rgb(95, 95, 95);
+}
+.container{
+  background-image: url(../img/bicycle.png);
+  background-position: center bottom -160px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #fff;
+  max-width: 600px;
+  padding: 15px 57px 160px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  box-shadow: 1px 1px 10px grey, -1px -1px 10px grey;
+}
+.top{
+display: flex;
+align-items: center;
+}
+.header{
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 700;
+}
+.account{
+  margin-left: auto;
+  border: 1px solid grey;
+  border-radius: 50%;
+  display: flex;
+}
+.account:hover{
+  border-radius: 500px;
+  box-shadow: 2px 2px 0 1px rgb(211, 209, 209), -2px 2px 0 1px rgb(211, 209, 209), 2px -2px 0 1px rgb(211, 209, 209), -2px -2px 0 1px rgb(211, 209, 209);
+  transition: 0.3s ease;
+}
+.img{
+padding: 3px;
+align-items: center;
+}
+.matn{
+  color: rgb(136, 133, 133);
+}
+.chapelli{
+  display: flex;
+}
+.castelli{
+  display: flex;
+}
+.total{
+  display: flex;
+}
+.pul{
+  margin-left: auto;
+  font-weight: bolder;
+}
